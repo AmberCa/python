@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>My First Flask Web Service</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script src="{{url_for('static',filename='js/1.11.3-jquery.min.js')}}"></script>
+
+<script type="text/javascript">
+	// $(function(){
+	// 	alert(124)
+	// })
+
+	function test(){
+		$("#result").empty();
+		// $("#dataInfo").val('');
+		var sentence = $("#sentence").val();
+		console.log("sentence----" + sentence);
+
+		$.ajax({
+			// url:"/test/" + sentence
+			// url:"/testJs",
+			url:'{{url_for("testJs")}}',
+			type : "post",
+			data:{"sentence" : sentence},
+			dataType : "json",
+			success : function(result) {
+				console.log('result------' + result)
+
+                $("#result").append(result);
+				// $("#dataInfo").val(result);
+				// var insertText = document.createTextNode(result);
+				// document.getElementById('result').appendChild(insertText);
+				
+				// $("#dataInfo").val('');
+			}
+		});
+	}
+</script>
+
+<style type="text/css">
+	#result, #btn {
+		margin-top: 30px;
+	}
+
+	#sentence {
+		width: 50%;
+		height: 30%;
+	}
+
+	#result {
+
+	}
+</style>
+
+	
+
+
+</head>
+<body>
+    <h1 align="center">Hello, Flask</h1>
+	<!-- <form>
+		<input type="text" name="">
+	</form> -->
+    <div align="center">
+    	<!-- <input type="text" id="age"/><br/> -->
+		测试语句：<textarea id = "sentence" rows="5" cols="100" type="text"></textarea><br/>
+		<!-- onblur="testAjax();" -->
+		测试结果：<div id = "result">
+			<!-- <p id = 'dataInfo'></p> -->
+		</div><br/>
+		<input id = "btn" type="button" value="提取关系" onclick="test();">
+    </div>
+</body>
+</html>

@@ -1,0 +1,2871 @@
+2018-03-26 23:04:38,930 - log/train.log - INFO - model_type     :	idcnn
+2018-03-26 23:04:38,930 - log/train.log - INFO - num_chars      :	534
+2018-03-26 23:04:38,930 - log/train.log - INFO - char_dim       :	100
+2018-03-26 23:04:38,930 - log/train.log - INFO - num_tags       :	16
+2018-03-26 23:04:38,930 - log/train.log - INFO - seg_dim        :	20
+2018-03-26 23:04:38,930 - log/train.log - INFO - lstm_dim       :	100
+2018-03-26 23:04:38,930 - log/train.log - INFO - batch_size     :	20.0
+2018-03-26 23:04:38,930 - log/train.log - INFO - emb_file       :	data/vec.txt
+2018-03-26 23:04:38,930 - log/train.log - INFO - clip           :	5.0
+2018-03-26 23:04:38,930 - log/train.log - INFO - dropout_keep   :	0.5
+2018-03-26 23:04:38,930 - log/train.log - INFO - optimizer      :	adam
+2018-03-26 23:04:38,930 - log/train.log - INFO - lr             :	0.001
+2018-03-26 23:04:38,930 - log/train.log - INFO - tag_schema     :	iobes
+2018-03-26 23:04:38,930 - log/train.log - INFO - pre_emb        :	True
+2018-03-26 23:04:38,930 - log/train.log - INFO - zeros          :	False
+2018-03-26 23:04:38,930 - log/train.log - INFO - lower          :	True
+2018-03-26 23:04:40,817 - log/train.log - INFO - Created model with fresh parameters.
+2018-03-26 23:04:42,540 - log/train.log - INFO - Load pre-trained embedding.
+2018-03-26 23:04:42,540 - log/train.log - INFO - start training
+2018-03-26 23:04:44,923 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:04:45,396 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 1138 phrases; correct: 0.
+
+2018-03-26 23:04:45,396 - log/train.log - INFO - accuracy:  32.52%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:04:45,396 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  69
+
+2018-03-26 23:04:45,396 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  590
+
+2018-03-26 23:04:45,396 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  285
+
+2018-03-26 23:04:45,396 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  119
+
+2018-03-26 23:04:45,397 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  75
+
+2018-03-26 23:04:45,416 - log/train.log - INFO - evaluate:test
+2018-03-26 23:04:45,696 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 796 phrases; correct: 0.
+
+2018-03-26 23:04:45,696 - log/train.log - INFO - accuracy:  31.24%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:04:45,696 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  48
+
+2018-03-26 23:04:45,696 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  414
+
+2018-03-26 23:04:45,696 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  189
+
+2018-03-26 23:04:45,696 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  83
+
+2018-03-26 23:04:45,697 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  62
+
+2018-03-26 23:04:47,504 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:04:47,866 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 650 phrases; correct: 0.
+
+2018-03-26 23:04:47,866 - log/train.log - INFO - accuracy:  56.84%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:04:47,866 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  11
+
+2018-03-26 23:04:47,866 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  349
+
+2018-03-26 23:04:47,866 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  232
+
+2018-03-26 23:04:47,866 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  43
+
+2018-03-26 23:04:47,866 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  15
+
+2018-03-26 23:04:47,867 - log/train.log - INFO - evaluate:test
+2018-03-26 23:04:48,132 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 444 phrases; correct: 0.
+
+2018-03-26 23:04:48,132 - log/train.log - INFO - accuracy:  57.44%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:04:48,132 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  5
+
+2018-03-26 23:04:48,133 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  250
+
+2018-03-26 23:04:48,133 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  156
+
+2018-03-26 23:04:48,133 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  27
+
+2018-03-26 23:04:48,133 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  6
+
+2018-03-26 23:04:49,946 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:04:50,317 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 71 phrases; correct: 0.
+
+2018-03-26 23:04:50,318 - log/train.log - INFO - accuracy:  79.64%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:04:50,318 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  43
+
+2018-03-26 23:04:50,318 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  26
+
+2018-03-26 23:04:50,318 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:04:50,318 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:50,319 - log/train.log - INFO - evaluate:test
+2018-03-26 23:04:50,568 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 49 phrases; correct: 0.
+
+2018-03-26 23:04:50,568 - log/train.log - INFO - accuracy:  80.16%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:04:50,568 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  31
+
+2018-03-26 23:04:50,568 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  18
+
+2018-03-26 23:04:50,568 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:50,569 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:52,339 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:04:52,686 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 7 phrases; correct: 0.
+
+2018-03-26 23:04:52,686 - log/train.log - INFO - accuracy:  82.07%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:04:52,686 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  5
+
+2018-03-26 23:04:52,686 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:04:52,686 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:52,686 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:52,689 - log/train.log - INFO - evaluate:test
+2018-03-26 23:04:52,965 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 8 phrases; correct: 0.
+
+2018-03-26 23:04:52,965 - log/train.log - INFO - accuracy:  82.31%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:04:52,965 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  7
+
+2018-03-26 23:04:52,965 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:04:52,965 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:52,965 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:54,752 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:04:55,105 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 2 phrases; correct: 0.
+
+2018-03-26 23:04:55,106 - log/train.log - INFO - accuracy:  82.02%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:04:55,106 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:04:55,106 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:55,106 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:55,106 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:55,107 - log/train.log - INFO - evaluate:test
+2018-03-26 23:04:55,412 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 2 phrases; correct: 0.
+
+2018-03-26 23:04:55,412 - log/train.log - INFO - accuracy:  82.38%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:04:55,412 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:04:55,412 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:04:55,412 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:55,412 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:57,149 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:04:57,520 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 3 phrases; correct: 0.
+
+2018-03-26 23:04:57,521 - log/train.log - INFO - accuracy:  82.07%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:04:57,521 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:04:57,521 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:04:57,521 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:57,521 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:57,522 - log/train.log - INFO - evaluate:test
+2018-03-26 23:04:57,789 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 1 phrases; correct: 0.
+
+2018-03-26 23:04:57,789 - log/train.log - INFO - accuracy:  82.38%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:04:57,789 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:04:57,789 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:57,789 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:57,789 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:59,565 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:04:59,887 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 4 phrases; correct: 0.
+
+2018-03-26 23:04:59,887 - log/train.log - INFO - accuracy:  82.17%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:04:59,888 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  4
+
+2018-03-26 23:04:59,888 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:59,888 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:59,888 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:04:59,889 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:00,113 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 5 phrases; correct: 0.
+
+2018-03-26 23:05:00,113 - log/train.log - INFO - accuracy:  82.46%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:00,113 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  4
+
+2018-03-26 23:05:00,113 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:05:00,113 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:00,114 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:01,896 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:02,264 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 14 phrases; correct: 0.
+
+2018-03-26 23:05:02,264 - log/train.log - INFO - accuracy:  82.27%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:02,264 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  13
+
+2018-03-26 23:05:02,264 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:05:02,264 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:02,265 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:02,265 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:02,503 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 8 phrases; correct: 0.
+
+2018-03-26 23:05:02,503 - log/train.log - INFO - accuracy:  82.53%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:02,503 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  6
+
+2018-03-26 23:05:02,503 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:05:02,503 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:02,503 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:04,214 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:04,523 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 27 phrases; correct: 0.
+
+2018-03-26 23:05:04,523 - log/train.log - INFO - accuracy:  82.07%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:04,523 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  24
+
+2018-03-26 23:05:04,523 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:05:04,523 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:04,523 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:04,524 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:04,846 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 17 phrases; correct: 0.
+
+2018-03-26 23:05:04,846 - log/train.log - INFO - accuracy:  82.24%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:04,846 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  15
+
+2018-03-26 23:05:04,846 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:05:04,846 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:04,846 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:06,558 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:06,906 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 46 phrases; correct: 0.
+
+2018-03-26 23:05:06,907 - log/train.log - INFO - accuracy:  82.57%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:06,907 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  39
+
+2018-03-26 23:05:06,907 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  7
+
+2018-03-26 23:05:06,907 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:06,907 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:06,907 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:07,182 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 25 phrases; correct: 0.
+
+2018-03-26 23:05:07,183 - log/train.log - INFO - accuracy:  82.90%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:07,183 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  21
+
+2018-03-26 23:05:07,183 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  4
+
+2018-03-26 23:05:07,183 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:07,183 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:08,939 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:09,299 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 54 phrases; correct: 0.
+
+2018-03-26 23:05:09,299 - log/train.log - INFO - accuracy:  82.88%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:09,299 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  38
+
+2018-03-26 23:05:09,299 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  16
+
+2018-03-26 23:05:09,299 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:09,299 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:09,300 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:09,543 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 45 phrases; correct: 0.
+
+2018-03-26 23:05:09,544 - log/train.log - INFO - accuracy:  82.61%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:09,544 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  33
+
+2018-03-26 23:05:09,544 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  12
+
+2018-03-26 23:05:09,544 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:09,544 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:11,398 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:11,747 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 83 phrases; correct: 0.
+
+2018-03-26 23:05:11,748 - log/train.log - INFO - accuracy:  83.49%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:11,748 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2018-03-26 23:05:11,748 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  26
+
+2018-03-26 23:05:11,748 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:11,748 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:11,748 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:12,011 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 45 phrases; correct: 0.
+
+2018-03-26 23:05:12,011 - log/train.log - INFO - accuracy:  83.49%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:12,011 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  31
+
+2018-03-26 23:05:12,011 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  14
+
+2018-03-26 23:05:12,011 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:12,011 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:13,808 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:14,124 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 101 phrases; correct: 0.
+
+2018-03-26 23:05:14,124 - log/train.log - INFO - accuracy:  83.59%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:14,124 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  72
+
+2018-03-26 23:05:14,124 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  29
+
+2018-03-26 23:05:14,124 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:14,124 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:14,125 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:14,411 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 61 phrases; correct: 0.
+
+2018-03-26 23:05:14,411 - log/train.log - INFO - accuracy:  84.68%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:14,411 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  42
+
+2018-03-26 23:05:14,411 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  19
+
+2018-03-26 23:05:14,411 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:14,412 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:16,183 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:16,572 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 98 phrases; correct: 0.
+
+2018-03-26 23:05:16,572 - log/train.log - INFO - accuracy:  84.04%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:16,572 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  69
+
+2018-03-26 23:05:16,572 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  29
+
+2018-03-26 23:05:16,572 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:16,572 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:16,573 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:16,842 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 73 phrases; correct: 0.
+
+2018-03-26 23:05:16,842 - log/train.log - INFO - accuracy:  85.20%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:16,842 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  52
+
+2018-03-26 23:05:16,843 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  21
+
+2018-03-26 23:05:16,843 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:16,843 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:18,597 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:18,896 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 116 phrases; correct: 0.
+
+2018-03-26 23:05:18,896 - log/train.log - INFO - accuracy:  84.25%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:18,896 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:05:18,896 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  77
+
+2018-03-26 23:05:18,896 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  38
+
+2018-03-26 23:05:18,897 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:18,897 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:18,898 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:19,194 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 73 phrases; correct: 0.
+
+2018-03-26 23:05:19,194 - log/train.log - INFO - accuracy:  84.83%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:19,194 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  52
+
+2018-03-26 23:05:19,194 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  21
+
+2018-03-26 23:05:19,194 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:19,194 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:20,981 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:21,365 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 139 phrases; correct: 0.
+
+2018-03-26 23:05:21,365 - log/train.log - INFO - accuracy:  85.06%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:21,366 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:05:21,366 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  92
+
+2018-03-26 23:05:21,366 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  45
+
+2018-03-26 23:05:21,366 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:21,366 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:21,367 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:21,621 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 88 phrases; correct: 0.
+
+2018-03-26 23:05:21,621 - log/train.log - INFO - accuracy:  84.97%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:21,621 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  56
+
+2018-03-26 23:05:21,621 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  32
+
+2018-03-26 23:05:21,622 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:21,622 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:23,373 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:23,708 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 131 phrases; correct: 0.
+
+2018-03-26 23:05:23,709 - log/train.log - INFO - accuracy:  84.85%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:23,709 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  89
+
+2018-03-26 23:05:23,709 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  42
+
+2018-03-26 23:05:23,709 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:23,709 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:23,709 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:24,009 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 98 phrases; correct: 0.
+
+2018-03-26 23:05:24,009 - log/train.log - INFO - accuracy:  85.86%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:24,009 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  62
+
+2018-03-26 23:05:24,009 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  36
+
+2018-03-26 23:05:24,009 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:24,009 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:25,775 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:26,129 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 149 phrases; correct: 0.
+
+2018-03-26 23:05:26,130 - log/train.log - INFO - accuracy:  85.51%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:26,130 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  98
+
+2018-03-26 23:05:26,130 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  51
+
+2018-03-26 23:05:26,130 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:26,130 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:26,131 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:26,367 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 116 phrases; correct: 0.
+
+2018-03-26 23:05:26,367 - log/train.log - INFO - accuracy:  86.01%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:26,367 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  77
+
+2018-03-26 23:05:26,367 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  39
+
+2018-03-26 23:05:26,367 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:26,367 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:28,154 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:28,515 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 172 phrases; correct: 0.
+
+2018-03-26 23:05:28,515 - log/train.log - INFO - accuracy:  85.87%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:28,515 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  108
+
+2018-03-26 23:05:28,516 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  64
+
+2018-03-26 23:05:28,516 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:28,516 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:28,517 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:28,792 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 123 phrases; correct: 0.
+
+2018-03-26 23:05:28,792 - log/train.log - INFO - accuracy:  86.75%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:28,792 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  82
+
+2018-03-26 23:05:28,792 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  41
+
+2018-03-26 23:05:28,793 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:28,793 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:30,567 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:30,910 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 171 phrases; correct: 0.
+
+2018-03-26 23:05:30,910 - log/train.log - INFO - accuracy:  86.52%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:30,910 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  109
+
+2018-03-26 23:05:30,910 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  62
+
+2018-03-26 23:05:30,910 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:30,910 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:30,911 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:31,206 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 120 phrases; correct: 0.
+
+2018-03-26 23:05:31,207 - log/train.log - INFO - accuracy:  87.56%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:31,207 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  78
+
+2018-03-26 23:05:31,207 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  42
+
+2018-03-26 23:05:31,207 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:31,207 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:33,056 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:33,411 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 180 phrases; correct: 0.
+
+2018-03-26 23:05:33,411 - log/train.log - INFO - accuracy:  86.98%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:33,411 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  111
+
+2018-03-26 23:05:33,411 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  69
+
+2018-03-26 23:05:33,411 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:33,411 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:33,412 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:33,659 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 131 phrases; correct: 0.
+
+2018-03-26 23:05:33,659 - log/train.log - INFO - accuracy:  87.64%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:33,659 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  73
+
+2018-03-26 23:05:33,659 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2018-03-26 23:05:33,659 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:33,659 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:35,443 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:35,788 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 186 phrases; correct: 0.
+
+2018-03-26 23:05:35,789 - log/train.log - INFO - accuracy:  88.10%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:35,789 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  113
+
+2018-03-26 23:05:35,789 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  73
+
+2018-03-26 23:05:35,789 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:35,789 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:35,789 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:36,030 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 129 phrases; correct: 0.
+
+2018-03-26 23:05:36,031 - log/train.log - INFO - accuracy:  87.93%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:36,031 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  75
+
+2018-03-26 23:05:36,031 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2018-03-26 23:05:36,031 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:36,031 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:37,864 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:38,187 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 188 phrases; correct: 0.
+
+2018-03-26 23:05:38,187 - log/train.log - INFO - accuracy:  88.35%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:38,188 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  107
+
+2018-03-26 23:05:38,188 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  81
+
+2018-03-26 23:05:38,188 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:38,188 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:38,189 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:38,445 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 122 phrases; correct: 0.
+
+2018-03-26 23:05:38,445 - log/train.log - INFO - accuracy:  89.49%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:38,445 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  71
+
+2018-03-26 23:05:38,445 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  51
+
+2018-03-26 23:05:38,445 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:38,445 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:40,269 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:40,664 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 206 phrases; correct: 0.
+
+2018-03-26 23:05:40,664 - log/train.log - INFO - accuracy:  88.04%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:40,664 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  115
+
+2018-03-26 23:05:40,664 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  91
+
+2018-03-26 23:05:40,664 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:40,664 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:40,665 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:40,943 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 131 phrases; correct: 0.
+
+2018-03-26 23:05:40,943 - log/train.log - INFO - accuracy:  88.82%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:40,943 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  71
+
+2018-03-26 23:05:40,943 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2018-03-26 23:05:40,943 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:40,943 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:42,801 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:43,156 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 190 phrases; correct: 0.
+
+2018-03-26 23:05:43,156 - log/train.log - INFO - accuracy:  88.40%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:43,156 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  102
+
+2018-03-26 23:05:43,156 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  88
+
+2018-03-26 23:05:43,156 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:43,156 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:43,157 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:43,446 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 137 phrases; correct: 0.
+
+2018-03-26 23:05:43,446 - log/train.log - INFO - accuracy:  89.56%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:43,446 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  75
+
+2018-03-26 23:05:43,446 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  62
+
+2018-03-26 23:05:43,446 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:43,446 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:45,180 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:45,508 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 183 phrases; correct: 0.
+
+2018-03-26 23:05:45,508 - log/train.log - INFO - accuracy:  88.96%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:45,508 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  98
+
+2018-03-26 23:05:45,508 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  85
+
+2018-03-26 23:05:45,508 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:45,509 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:45,510 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:45,809 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 118 phrases; correct: 0.
+
+2018-03-26 23:05:45,809 - log/train.log - INFO - accuracy:  90.53%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:45,809 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  66
+
+2018-03-26 23:05:45,809 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  52
+
+2018-03-26 23:05:45,809 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:45,809 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:47,541 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:47,893 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 174 phrases; correct: 0.
+
+2018-03-26 23:05:47,894 - log/train.log - INFO - accuracy:  88.70%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:47,894 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  95
+
+2018-03-26 23:05:47,894 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  79
+
+2018-03-26 23:05:47,894 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:47,894 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:47,895 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:48,182 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 128 phrases; correct: 0.
+
+2018-03-26 23:05:48,182 - log/train.log - INFO - accuracy:  90.53%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:48,182 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  67
+
+2018-03-26 23:05:48,182 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  61
+
+2018-03-26 23:05:48,182 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:48,182 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:50,042 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:50,401 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 172 phrases; correct: 0.
+
+2018-03-26 23:05:50,401 - log/train.log - INFO - accuracy:  89.01%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:50,401 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  94
+
+2018-03-26 23:05:50,401 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  78
+
+2018-03-26 23:05:50,401 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:50,401 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:50,401 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:50,689 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 114 phrases; correct: 0.
+
+2018-03-26 23:05:50,689 - log/train.log - INFO - accuracy:  89.93%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:50,689 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  62
+
+2018-03-26 23:05:50,689 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  52
+
+2018-03-26 23:05:50,689 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:50,689 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:52,551 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:52,846 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 167 phrases; correct: 0.
+
+2018-03-26 23:05:52,846 - log/train.log - INFO - accuracy:  89.21%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:52,847 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  93
+
+2018-03-26 23:05:52,847 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  74
+
+2018-03-26 23:05:52,847 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:52,847 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:52,847 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:53,119 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 100 phrases; correct: 0.
+
+2018-03-26 23:05:53,119 - log/train.log - INFO - accuracy:  91.04%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:53,119 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2018-03-26 23:05:53,119 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  46
+
+2018-03-26 23:05:53,119 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:53,119 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:54,908 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:55,261 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 178 phrases; correct: 0.
+
+2018-03-26 23:05:55,261 - log/train.log - INFO - accuracy:  89.46%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:55,262 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  97
+
+2018-03-26 23:05:55,262 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  81
+
+2018-03-26 23:05:55,262 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:55,262 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:55,263 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:55,553 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 101 phrases; correct: 0.
+
+2018-03-26 23:05:55,553 - log/train.log - INFO - accuracy:  91.56%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:55,553 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2018-03-26 23:05:55,554 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  44
+
+2018-03-26 23:05:55,554 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:55,554 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:57,329 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:05:57,634 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 132 phrases; correct: 0.
+
+2018-03-26 23:05:57,634 - log/train.log - INFO - accuracy:  90.02%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:57,634 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  72
+
+2018-03-26 23:05:57,634 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2018-03-26 23:05:57,634 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:57,635 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:57,636 - log/train.log - INFO - evaluate:test
+2018-03-26 23:05:57,934 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 96 phrases; correct: 0.
+
+2018-03-26 23:05:57,934 - log/train.log - INFO - accuracy:  90.97%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:05:57,934 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  53
+
+2018-03-26 23:05:57,934 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  43
+
+2018-03-26 23:05:57,934 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:57,934 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:05:59,759 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:00,095 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 143 phrases; correct: 0.
+
+2018-03-26 23:06:00,095 - log/train.log - INFO - accuracy:  90.17%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:00,095 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  78
+
+2018-03-26 23:06:00,095 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  65
+
+2018-03-26 23:06:00,095 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:00,095 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:00,096 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:00,380 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 96 phrases; correct: 0.
+
+2018-03-26 23:06:00,380 - log/train.log - INFO - accuracy:  91.27%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:00,380 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  49
+
+2018-03-26 23:06:00,380 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  47
+
+2018-03-26 23:06:00,381 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:00,381 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:02,177 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:02,531 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 123 phrases; correct: 0.
+
+2018-03-26 23:06:02,531 - log/train.log - INFO - accuracy:  90.07%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:02,531 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:02,531 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  70
+
+2018-03-26 23:06:02,531 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  52
+
+2018-03-26 23:06:02,531 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:02,531 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:02,532 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:02,777 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 75 phrases; correct: 0.
+
+2018-03-26 23:06:02,777 - log/train.log - INFO - accuracy:  91.34%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:02,777 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  43
+
+2018-03-26 23:06:02,777 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  32
+
+2018-03-26 23:06:02,777 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:02,777 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:04,554 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:04,919 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 119 phrases; correct: 0.
+
+2018-03-26 23:06:04,919 - log/train.log - INFO - accuracy:  90.93%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:04,919 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:04,919 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  68
+
+2018-03-26 23:06:04,919 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  50
+
+2018-03-26 23:06:04,919 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:04,919 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:04,920 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:05,208 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 81 phrases; correct: 0.
+
+2018-03-26 23:06:05,208 - log/train.log - INFO - accuracy:  91.12%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:05,208 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:06:05,208 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  46
+
+2018-03-26 23:06:05,208 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  33
+
+2018-03-26 23:06:05,209 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:05,209 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:06,945 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:07,314 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 120 phrases; correct: 0.
+
+2018-03-26 23:06:07,314 - log/train.log - INFO - accuracy:  90.17%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:07,314 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  66
+
+2018-03-26 23:06:07,314 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2018-03-26 23:06:07,314 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:07,314 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:07,315 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:07,608 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 82 phrases; correct: 0.
+
+2018-03-26 23:06:07,609 - log/train.log - INFO - accuracy:  91.64%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:07,609 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  46
+
+2018-03-26 23:06:07,609 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  36
+
+2018-03-26 23:06:07,609 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:07,609 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:09,465 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:09,799 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 113 phrases; correct: 0.
+
+2018-03-26 23:06:09,799 - log/train.log - INFO - accuracy:  91.08%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:09,799 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:09,799 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  65
+
+2018-03-26 23:06:09,799 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  47
+
+2018-03-26 23:06:09,799 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:09,799 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:09,800 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:10,081 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 78 phrases; correct: 0.
+
+2018-03-26 23:06:10,081 - log/train.log - INFO - accuracy:  92.08%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:10,081 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:10,081 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  42
+
+2018-03-26 23:06:10,081 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  35
+
+2018-03-26 23:06:10,081 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:10,082 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:11,873 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:12,193 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 117 phrases; correct: 0.
+
+2018-03-26 23:06:12,193 - log/train.log - INFO - accuracy:  90.32%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:12,193 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  65
+
+2018-03-26 23:06:12,193 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  52
+
+2018-03-26 23:06:12,193 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:12,193 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:12,194 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:12,484 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 81 phrases; correct: 0.
+
+2018-03-26 23:06:12,484 - log/train.log - INFO - accuracy:  91.49%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:12,484 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:12,484 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  44
+
+2018-03-26 23:06:12,484 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  36
+
+2018-03-26 23:06:12,484 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:12,484 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:14,363 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:14,674 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 145 phrases; correct: 0.
+
+2018-03-26 23:06:14,674 - log/train.log - INFO - accuracy:  90.22%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:14,674 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:06:14,674 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  76
+
+2018-03-26 23:06:14,674 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  67
+
+2018-03-26 23:06:14,674 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:14,674 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:14,675 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:14,937 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 84 phrases; correct: 0.
+
+2018-03-26 23:06:14,937 - log/train.log - INFO - accuracy:  91.93%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:14,938 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:14,938 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  47
+
+2018-03-26 23:06:14,938 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  36
+
+2018-03-26 23:06:14,938 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:14,938 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:16,715 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:17,031 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 131 phrases; correct: 0.
+
+2018-03-26 23:06:17,031 - log/train.log - INFO - accuracy:  90.63%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:17,031 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  68
+
+2018-03-26 23:06:17,031 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  63
+
+2018-03-26 23:06:17,031 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:17,031 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:17,032 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:17,308 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 87 phrases; correct: 0.
+
+2018-03-26 23:06:17,308 - log/train.log - INFO - accuracy:  92.23%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:17,308 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:06:17,308 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  44
+
+2018-03-26 23:06:17,308 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  41
+
+2018-03-26 23:06:17,309 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:17,309 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:19,051 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:19,415 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 157 phrases; correct: 0.
+
+2018-03-26 23:06:19,415 - log/train.log - INFO - accuracy:  90.37%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:19,415 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:06:19,415 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  82
+
+2018-03-26 23:06:19,415 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  73
+
+2018-03-26 23:06:19,416 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:19,416 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:19,417 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:19,729 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 80 phrases; correct: 0.
+
+2018-03-26 23:06:19,729 - log/train.log - INFO - accuracy:  91.64%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:19,729 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:19,729 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  41
+
+2018-03-26 23:06:19,729 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  38
+
+2018-03-26 23:06:19,729 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:19,729 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:21,497 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:21,825 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 119 phrases; correct: 0.
+
+2018-03-26 23:06:21,826 - log/train.log - INFO - accuracy:  90.88%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:21,826 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:21,826 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  61
+
+2018-03-26 23:06:21,826 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2018-03-26 23:06:21,826 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:21,826 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:21,827 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:22,074 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 85 phrases; correct: 0.
+
+2018-03-26 23:06:22,074 - log/train.log - INFO - accuracy:  91.41%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:22,075 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:06:22,075 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  46
+
+2018-03-26 23:06:22,075 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  37
+
+2018-03-26 23:06:22,075 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:22,075 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:23,776 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:24,087 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 130 phrases; correct: 0.
+
+2018-03-26 23:06:24,087 - log/train.log - INFO - accuracy:  90.73%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:24,087 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:06:24,087 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  64
+
+2018-03-26 23:06:24,087 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  64
+
+2018-03-26 23:06:24,087 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:24,087 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:24,088 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:24,373 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 92 phrases; correct: 0.
+
+2018-03-26 23:06:24,374 - log/train.log - INFO - accuracy:  91.71%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:24,374 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  4
+
+2018-03-26 23:06:24,374 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  45
+
+2018-03-26 23:06:24,374 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  43
+
+2018-03-26 23:06:24,374 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:24,374 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:26,195 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:26,580 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 150 phrases; correct: 0.
+
+2018-03-26 23:06:26,580 - log/train.log - INFO - accuracy:  91.13%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:26,580 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  4
+
+2018-03-26 23:06:26,581 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  76
+
+2018-03-26 23:06:26,581 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  70
+
+2018-03-26 23:06:26,581 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:26,581 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:26,582 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:26,843 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 94 phrases; correct: 0.
+
+2018-03-26 23:06:26,844 - log/train.log - INFO - accuracy:  91.93%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:26,844 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  50
+
+2018-03-26 23:06:26,844 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  44
+
+2018-03-26 23:06:26,844 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:26,844 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:28,638 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:28,985 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 120 phrases; correct: 0.
+
+2018-03-26 23:06:28,985 - log/train.log - INFO - accuracy:  91.13%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:28,985 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:06:28,985 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2018-03-26 23:06:28,985 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2018-03-26 23:06:28,985 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:28,985 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:28,986 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:29,261 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 92 phrases; correct: 0.
+
+2018-03-26 23:06:29,261 - log/train.log - INFO - accuracy:  91.41%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:29,261 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  48
+
+2018-03-26 23:06:29,261 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  44
+
+2018-03-26 23:06:29,261 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:29,261 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:31,039 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:31,370 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 123 phrases; correct: 0.
+
+2018-03-26 23:06:31,370 - log/train.log - INFO - accuracy:  91.49%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:31,370 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:31,370 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  62
+
+2018-03-26 23:06:31,370 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2018-03-26 23:06:31,370 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:31,371 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:31,372 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:31,657 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 87 phrases; correct: 0.
+
+2018-03-26 23:06:31,657 - log/train.log - INFO - accuracy:  91.86%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:31,657 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:06:31,657 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  45
+
+2018-03-26 23:06:31,657 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  40
+
+2018-03-26 23:06:31,657 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:31,657 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:33,423 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:33,737 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 136 phrases; correct: 0.
+
+2018-03-26 23:06:33,737 - log/train.log - INFO - accuracy:  91.34%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:33,737 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  5
+
+2018-03-26 23:06:33,738 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  68
+
+2018-03-26 23:06:33,738 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  63
+
+2018-03-26 23:06:33,738 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:33,738 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:33,739 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:33,977 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 90 phrases; correct: 0.
+
+2018-03-26 23:06:33,978 - log/train.log - INFO - accuracy:  92.60%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:33,978 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  4
+
+2018-03-26 23:06:33,978 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  45
+
+2018-03-26 23:06:33,978 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  41
+
+2018-03-26 23:06:33,978 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:33,978 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:35,782 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:36,137 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 134 phrases; correct: 0.
+
+2018-03-26 23:06:36,137 - log/train.log - INFO - accuracy:  91.13%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:36,137 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:06:36,137 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  65
+
+2018-03-26 23:06:36,137 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  66
+
+2018-03-26 23:06:36,137 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:36,137 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:36,138 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:36,397 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 91 phrases; correct: 0.
+
+2018-03-26 23:06:36,397 - log/train.log - INFO - accuracy:  92.75%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:36,397 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:06:36,397 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  50
+
+2018-03-26 23:06:36,397 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  39
+
+2018-03-26 23:06:36,397 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:36,397 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:38,192 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:38,529 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 134 phrases; correct: 0.
+
+2018-03-26 23:06:38,529 - log/train.log - INFO - accuracy:  91.08%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:38,529 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:38,529 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  65
+
+2018-03-26 23:06:38,529 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  68
+
+2018-03-26 23:06:38,529 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:38,529 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:38,530 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:38,821 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 77 phrases; correct: 0.
+
+2018-03-26 23:06:38,821 - log/train.log - INFO - accuracy:  92.30%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:38,821 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:06:38,821 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  40
+
+2018-03-26 23:06:38,821 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  35
+
+2018-03-26 23:06:38,821 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:38,822 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:40,658 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:40,944 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 121 phrases; correct: 0.
+
+2018-03-26 23:06:40,944 - log/train.log - INFO - accuracy:  91.84%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:40,944 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:40,944 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2018-03-26 23:06:40,944 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2018-03-26 23:06:40,944 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:40,944 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:40,945 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:41,232 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 79 phrases; correct: 0.
+
+2018-03-26 23:06:41,232 - log/train.log - INFO - accuracy:  91.49%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:41,232 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:06:41,232 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  40
+
+2018-03-26 23:06:41,232 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  37
+
+2018-03-26 23:06:41,232 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:41,233 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:43,048 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:43,410 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 126 phrases; correct: 0.
+
+2018-03-26 23:06:43,410 - log/train.log - INFO - accuracy:  91.95%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:43,410 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  61
+
+2018-03-26 23:06:43,410 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  65
+
+2018-03-26 23:06:43,410 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:43,410 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:43,411 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:43,694 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 86 phrases; correct: 0.
+
+2018-03-26 23:06:43,694 - log/train.log - INFO - accuracy:  92.52%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:43,694 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:06:43,694 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  42
+
+2018-03-26 23:06:43,694 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  42
+
+2018-03-26 23:06:43,694 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:43,694 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:45,501 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:45,872 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 111 phrases; correct: 0.
+
+2018-03-26 23:06:45,872 - log/train.log - INFO - accuracy:  91.54%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:45,872 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:45,872 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  54
+
+2018-03-26 23:06:45,872 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  56
+
+2018-03-26 23:06:45,872 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:45,872 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:45,872 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:46,126 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 97 phrases; correct: 0.
+
+2018-03-26 23:06:46,126 - log/train.log - INFO - accuracy:  91.78%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:46,126 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:46,126 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  47
+
+2018-03-26 23:06:46,126 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  49
+
+2018-03-26 23:06:46,126 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:46,127 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:47,872 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:48,244 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 131 phrases; correct: 0.
+
+2018-03-26 23:06:48,245 - log/train.log - INFO - accuracy:  91.69%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:48,245 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:48,245 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  66
+
+2018-03-26 23:06:48,245 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  64
+
+2018-03-26 23:06:48,245 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:48,245 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:48,246 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:48,493 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 86 phrases; correct: 0.
+
+2018-03-26 23:06:48,493 - log/train.log - INFO - accuracy:  92.08%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:48,494 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  41
+
+2018-03-26 23:06:48,494 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  45
+
+2018-03-26 23:06:48,494 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:48,494 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:50,172 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:50,505 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 147 phrases; correct: 0.
+
+2018-03-26 23:06:50,506 - log/train.log - INFO - accuracy:  91.34%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:50,506 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  71
+
+2018-03-26 23:06:50,506 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  76
+
+2018-03-26 23:06:50,506 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:50,506 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:50,507 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:50,805 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 92 phrases; correct: 0.
+
+2018-03-26 23:06:50,805 - log/train.log - INFO - accuracy:  92.67%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:50,805 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  46
+
+2018-03-26 23:06:50,805 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  46
+
+2018-03-26 23:06:50,805 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:50,805 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:52,751 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:53,108 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 146 phrases; correct: 0.
+
+2018-03-26 23:06:53,108 - log/train.log - INFO - accuracy:  91.64%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:53,108 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:53,108 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  70
+
+2018-03-26 23:06:53,108 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  75
+
+2018-03-26 23:06:53,108 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:53,108 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:53,110 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:53,402 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 85 phrases; correct: 0.
+
+2018-03-26 23:06:53,403 - log/train.log - INFO - accuracy:  92.60%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:53,403 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:06:53,403 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  41
+
+2018-03-26 23:06:53,403 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  43
+
+2018-03-26 23:06:53,403 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:53,403 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:55,240 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:55,597 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 126 phrases; correct: 0.
+
+2018-03-26 23:06:55,597 - log/train.log - INFO - accuracy:  91.64%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:55,598 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  63
+
+2018-03-26 23:06:55,598 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  63
+
+2018-03-26 23:06:55,598 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:55,598 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:55,599 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:55,861 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 92 phrases; correct: 0.
+
+2018-03-26 23:06:55,861 - log/train.log - INFO - accuracy:  92.52%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:55,862 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  46
+
+2018-03-26 23:06:55,862 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  46
+
+2018-03-26 23:06:55,862 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:55,862 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:57,634 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:06:58,006 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 126 phrases; correct: 1.
+
+2018-03-26 23:06:58,007 - log/train.log - INFO - accuracy:  91.89%; precision:   0.79%; recall:   4.17%; FB1:   1.33
+
+2018-03-26 23:06:58,007 - log/train.log - INFO -                ID: precision:   1.52%; recall:   8.33%; FB1:   2.56  66
+
+2018-03-26 23:06:58,007 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2018-03-26 23:06:58,007 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:58,007 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:58,059 - log/train.log - INFO - new best dev f1 score:1.330
+2018-03-26 23:06:58,240 - log/train.log - INFO - model saved
+2018-03-26 23:06:58,241 - log/train.log - INFO - evaluate:test
+2018-03-26 23:06:58,533 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 77 phrases; correct: 0.
+
+2018-03-26 23:06:58,533 - log/train.log - INFO - accuracy:  93.78%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:06:58,533 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  41
+
+2018-03-26 23:06:58,533 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  36
+
+2018-03-26 23:06:58,534 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:06:58,534 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:00,311 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:00,686 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 118 phrases; correct: 0.
+
+2018-03-26 23:07:00,686 - log/train.log - INFO - accuracy:  91.49%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:00,687 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:00,687 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2018-03-26 23:07:00,687 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  59
+
+2018-03-26 23:07:00,687 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:00,687 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:00,688 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:00,955 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 76 phrases; correct: 0.
+
+2018-03-26 23:07:00,955 - log/train.log - INFO - accuracy:  93.71%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:00,955 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:00,955 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  36
+
+2018-03-26 23:07:00,955 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  39
+
+2018-03-26 23:07:00,956 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:00,956 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:02,758 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:03,096 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 131 phrases; correct: 0.
+
+2018-03-26 23:07:03,096 - log/train.log - INFO - accuracy:  91.84%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:03,096 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:07:03,096 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  64
+
+2018-03-26 23:07:03,096 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  63
+
+2018-03-26 23:07:03,096 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:03,096 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:03,097 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:03,374 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 66 phrases; correct: 0.
+
+2018-03-26 23:07:03,375 - log/train.log - INFO - accuracy:  92.89%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:03,375 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  33
+
+2018-03-26 23:07:03,375 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  33
+
+2018-03-26 23:07:03,375 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:03,375 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:05,109 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:05,446 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 128 phrases; correct: 0.
+
+2018-03-26 23:07:05,446 - log/train.log - INFO - accuracy:  92.40%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:05,447 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:07:05,447 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  63
+
+2018-03-26 23:07:05,447 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  62
+
+2018-03-26 23:07:05,447 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:05,447 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:05,448 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:05,705 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 89 phrases; correct: 0.
+
+2018-03-26 23:07:05,705 - log/train.log - INFO - accuracy:  92.97%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:05,705 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:05,705 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  45
+
+2018-03-26 23:07:05,705 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  42
+
+2018-03-26 23:07:05,705 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:05,705 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:07,416 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:07,747 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 120 phrases; correct: 0.
+
+2018-03-26 23:07:07,747 - log/train.log - INFO - accuracy:  91.89%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:07,747 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2018-03-26 23:07:07,748 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  60
+
+2018-03-26 23:07:07,748 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:07,748 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:07,749 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:08,038 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 81 phrases; correct: 0.
+
+2018-03-26 23:07:08,039 - log/train.log - INFO - accuracy:  93.04%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:08,039 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:08,039 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  41
+
+2018-03-26 23:07:08,039 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  39
+
+2018-03-26 23:07:08,039 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:08,039 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:09,801 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:10,134 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 138 phrases; correct: 1.
+
+2018-03-26 23:07:10,135 - log/train.log - INFO - accuracy:  92.76%; precision:   0.72%; recall:   4.17%; FB1:   1.23
+
+2018-03-26 23:07:10,135 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:10,135 - log/train.log - INFO -                ID: precision:   1.45%; recall:   8.33%; FB1:   2.47  69
+
+2018-03-26 23:07:10,135 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  68
+
+2018-03-26 23:07:10,135 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:10,135 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:10,135 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:10,458 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 74 phrases; correct: 0.
+
+2018-03-26 23:07:10,458 - log/train.log - INFO - accuracy:  92.97%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:10,458 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  34
+
+2018-03-26 23:07:10,458 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  40
+
+2018-03-26 23:07:10,458 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:10,458 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:12,214 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:12,554 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 118 phrases; correct: 0.
+
+2018-03-26 23:07:12,554 - log/train.log - INFO - accuracy:  92.15%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:12,554 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:12,554 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2018-03-26 23:07:12,554 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  59
+
+2018-03-26 23:07:12,555 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:12,555 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:12,556 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:12,829 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 77 phrases; correct: 0.
+
+2018-03-26 23:07:12,829 - log/train.log - INFO - accuracy:  92.52%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:12,829 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:12,829 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  38
+
+2018-03-26 23:07:12,829 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  37
+
+2018-03-26 23:07:12,829 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:12,829 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:14,621 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:15,005 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 123 phrases; correct: 0.
+
+2018-03-26 23:07:15,005 - log/train.log - INFO - accuracy:  92.20%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:15,005 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:07:15,005 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  62
+
+2018-03-26 23:07:15,005 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  58
+
+2018-03-26 23:07:15,005 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:15,005 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:15,006 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:15,281 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 78 phrases; correct: 0.
+
+2018-03-26 23:07:15,281 - log/train.log - INFO - accuracy:  93.63%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:15,282 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:07:15,282 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  39
+
+2018-03-26 23:07:15,282 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  36
+
+2018-03-26 23:07:15,282 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:15,282 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:17,063 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:17,432 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 127 phrases; correct: 1.
+
+2018-03-26 23:07:17,432 - log/train.log - INFO - accuracy:  93.16%; precision:   0.79%; recall:   4.17%; FB1:   1.32
+
+2018-03-26 23:07:17,432 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:17,432 - log/train.log - INFO -                ID: precision:   1.49%; recall:   8.33%; FB1:   2.53  67
+
+2018-03-26 23:07:17,432 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2018-03-26 23:07:17,432 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:17,432 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:17,433 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:17,714 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 69 phrases; correct: 0.
+
+2018-03-26 23:07:17,714 - log/train.log - INFO - accuracy:  93.78%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:17,714 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  35
+
+2018-03-26 23:07:17,714 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  34
+
+2018-03-26 23:07:17,714 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:17,714 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:19,632 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:19,963 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 117 phrases; correct: 0.
+
+2018-03-26 23:07:19,963 - log/train.log - INFO - accuracy:  93.21%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:19,963 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:19,963 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  63
+
+2018-03-26 23:07:19,963 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  52
+
+2018-03-26 23:07:19,963 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:19,963 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:19,964 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:20,250 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 75 phrases; correct: 0.
+
+2018-03-26 23:07:20,250 - log/train.log - INFO - accuracy:  93.12%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:20,250 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:20,251 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  37
+
+2018-03-26 23:07:20,251 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  36
+
+2018-03-26 23:07:20,251 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:20,251 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:21,947 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:22,277 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 122 phrases; correct: 0.
+
+2018-03-26 23:07:22,278 - log/train.log - INFO - accuracy:  93.01%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:22,278 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:22,278 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  66
+
+2018-03-26 23:07:22,278 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  55
+
+2018-03-26 23:07:22,278 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:22,278 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:22,278 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:22,546 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 67 phrases; correct: 0.
+
+2018-03-26 23:07:22,546 - log/train.log - INFO - accuracy:  94.52%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:22,546 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  35
+
+2018-03-26 23:07:22,546 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  32
+
+2018-03-26 23:07:22,547 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:22,547 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:24,369 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:24,724 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 110 phrases; correct: 0.
+
+2018-03-26 23:07:24,724 - log/train.log - INFO - accuracy:  93.21%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:24,724 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  57
+
+2018-03-26 23:07:24,724 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  53
+
+2018-03-26 23:07:24,724 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:24,725 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:24,726 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:24,984 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 84 phrases; correct: 0.
+
+2018-03-26 23:07:24,985 - log/train.log - INFO - accuracy:  93.12%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-03-26 23:07:24,985 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:07:24,985 - log/train.log - INFO -                ID: precision:   0.00%; recall:   0.00%; FB1:   0.00  44
+
+2018-03-26 23:07:24,985 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  37
+
+2018-03-26 23:07:24,985 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:24,985 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:26,662 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:27,023 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 122 phrases; correct: 1.
+
+2018-03-26 23:07:27,023 - log/train.log - INFO - accuracy:  92.86%; precision:   0.82%; recall:   4.17%; FB1:   1.37
+
+2018-03-26 23:07:27,024 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:27,024 - log/train.log - INFO -                ID: precision:   1.54%; recall:   8.33%; FB1:   2.60  65
+
+2018-03-26 23:07:27,024 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  56
+
+2018-03-26 23:07:27,024 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:27,024 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:27,071 - log/train.log - INFO - new best dev f1 score:1.370
+2018-03-26 23:07:27,239 - log/train.log - INFO - model saved
+2018-03-26 23:07:27,239 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:27,467 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 54 phrases; correct: 3.
+
+2018-03-26 23:07:27,468 - log/train.log - INFO - accuracy:  95.11%; precision:   5.56%; recall:  20.00%; FB1:   8.70
+
+2018-03-26 23:07:27,468 - log/train.log - INFO -                ID: precision:  10.34%; recall:  30.00%; FB1:  15.38  29
+
+2018-03-26 23:07:27,468 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  25
+
+2018-03-26 23:07:27,468 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:27,468 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:27,518 - log/train.log - INFO - new best test f1 score:8.700
+2018-03-26 23:07:29,284 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:29,635 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 102 phrases; correct: 3.
+
+2018-03-26 23:07:29,636 - log/train.log - INFO - accuracy:  94.28%; precision:   2.94%; recall:  12.50%; FB1:   4.76
+
+2018-03-26 23:07:29,636 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:29,636 - log/train.log - INFO -                ID: precision:   5.66%; recall:  25.00%; FB1:   9.23  53
+
+2018-03-26 23:07:29,636 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  46
+
+2018-03-26 23:07:29,636 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:29,636 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:29,683 - log/train.log - INFO - new best dev f1 score:4.760
+2018-03-26 23:07:29,868 - log/train.log - INFO - model saved
+2018-03-26 23:07:29,868 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:30,130 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 71 phrases; correct: 1.
+
+2018-03-26 23:07:30,130 - log/train.log - INFO - accuracy:  94.45%; precision:   1.41%; recall:   6.67%; FB1:   2.33
+
+2018-03-26 23:07:30,130 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:30,130 - log/train.log - INFO -                ID: precision:   2.63%; recall:  10.00%; FB1:   4.17  38
+
+2018-03-26 23:07:30,130 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  31
+
+2018-03-26 23:07:30,130 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:30,130 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:31,871 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:32,241 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 120 phrases; correct: 2.
+
+2018-03-26 23:07:32,241 - log/train.log - INFO - accuracy:  93.57%; precision:   1.67%; recall:   8.33%; FB1:   2.78
+
+2018-03-26 23:07:32,242 - log/train.log - INFO -                ID: precision:   1.61%; recall:   8.33%; FB1:   2.70  62
+
+2018-03-26 23:07:32,242 - log/train.log - INFO -             PHONE: precision:   1.75%; recall:  10.00%; FB1:   2.99  57
+
+2018-03-26 23:07:32,242 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:32,242 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:32,243 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:32,531 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 63 phrases; correct: 1.
+
+2018-03-26 23:07:32,531 - log/train.log - INFO - accuracy:  94.00%; precision:   1.59%; recall:   6.67%; FB1:   2.56
+
+2018-03-26 23:07:32,531 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:32,532 - log/train.log - INFO -                ID: precision:   3.23%; recall:  10.00%; FB1:   4.88  31
+
+2018-03-26 23:07:32,532 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  30
+
+2018-03-26 23:07:32,532 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:32,532 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:34,390 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:34,784 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 100 phrases; correct: 2.
+
+2018-03-26 23:07:34,784 - log/train.log - INFO - accuracy:  94.73%; precision:   2.00%; recall:   8.33%; FB1:   3.23
+
+2018-03-26 23:07:34,784 - log/train.log - INFO -                ID: precision:   1.92%; recall:   8.33%; FB1:   3.12  52
+
+2018-03-26 23:07:34,784 - log/train.log - INFO -             PHONE: precision:   2.13%; recall:  10.00%; FB1:   3.51  47
+
+2018-03-26 23:07:34,784 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:34,784 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:34,785 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:35,023 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 55 phrases; correct: 1.
+
+2018-03-26 23:07:35,023 - log/train.log - INFO - accuracy:  94.52%; precision:   1.82%; recall:   6.67%; FB1:   2.86
+
+2018-03-26 23:07:35,023 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:35,024 - log/train.log - INFO -                ID: precision:   3.57%; recall:  10.00%; FB1:   5.26  28
+
+2018-03-26 23:07:35,024 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  25
+
+2018-03-26 23:07:35,024 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:35,024 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:36,781 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:37,219 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 101 phrases; correct: 2.
+
+2018-03-26 23:07:37,219 - log/train.log - INFO - accuracy:  94.68%; precision:   1.98%; recall:   8.33%; FB1:   3.20
+
+2018-03-26 23:07:37,219 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:37,219 - log/train.log - INFO -                ID: precision:   3.77%; recall:  16.67%; FB1:   6.15  53
+
+2018-03-26 23:07:37,219 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  45
+
+2018-03-26 23:07:37,219 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:37,219 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:37,220 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:37,474 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 65 phrases; correct: 2.
+
+2018-03-26 23:07:37,474 - log/train.log - INFO - accuracy:  94.74%; precision:   3.08%; recall:  13.33%; FB1:   5.00
+
+2018-03-26 23:07:37,474 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:37,474 - log/train.log - INFO -                ID: precision:   2.94%; recall:  10.00%; FB1:   4.55  34
+
+2018-03-26 23:07:37,474 - log/train.log - INFO -             PHONE: precision:   3.45%; recall:  33.33%; FB1:   6.25  29
+
+2018-03-26 23:07:37,474 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:37,474 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:39,342 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:39,704 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 86 phrases; correct: 2.
+
+2018-03-26 23:07:39,704 - log/train.log - INFO - accuracy:  94.63%; precision:   2.33%; recall:   8.33%; FB1:   3.64
+
+2018-03-26 23:07:39,704 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:39,704 - log/train.log - INFO -                ID: precision:   4.88%; recall:  16.67%; FB1:   7.55  41
+
+2018-03-26 23:07:39,704 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  44
+
+2018-03-26 23:07:39,704 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:39,705 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:39,706 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:40,003 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 45 phrases; correct: 2.
+
+2018-03-26 23:07:40,003 - log/train.log - INFO - accuracy:  95.11%; precision:   4.44%; recall:  13.33%; FB1:   6.67
+
+2018-03-26 23:07:40,003 - log/train.log - INFO -                ID: precision:   8.33%; recall:  20.00%; FB1:  11.76  24
+
+2018-03-26 23:07:40,003 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  21
+
+2018-03-26 23:07:40,003 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:40,004 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:41,762 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:42,118 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 86 phrases; correct: 3.
+
+2018-03-26 23:07:42,118 - log/train.log - INFO - accuracy:  94.17%; precision:   3.49%; recall:  12.50%; FB1:   5.45
+
+2018-03-26 23:07:42,118 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:07:42,118 - log/train.log - INFO -                ID: precision:   6.98%; recall:  25.00%; FB1:  10.91  43
+
+2018-03-26 23:07:42,118 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  40
+
+2018-03-26 23:07:42,118 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:42,119 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:42,186 - log/train.log - INFO - new best dev f1 score:5.450
+2018-03-26 23:07:42,471 - log/train.log - INFO - model saved
+2018-03-26 23:07:42,471 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:42,734 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 42 phrases; correct: 3.
+
+2018-03-26 23:07:42,734 - log/train.log - INFO - accuracy:  95.41%; precision:   7.14%; recall:  20.00%; FB1:  10.53
+
+2018-03-26 23:07:42,734 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:42,734 - log/train.log - INFO -                ID: precision:  13.04%; recall:  30.00%; FB1:  18.18  23
+
+2018-03-26 23:07:42,734 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  18
+
+2018-03-26 23:07:42,734 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:42,734 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:42,781 - log/train.log - INFO - new best test f1 score:10.530
+2018-03-26 23:07:44,517 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:44,863 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 79 phrases; correct: 1.
+
+2018-03-26 23:07:44,863 - log/train.log - INFO - accuracy:  95.39%; precision:   1.27%; recall:   4.17%; FB1:   1.94
+
+2018-03-26 23:07:44,863 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:44,864 - log/train.log - INFO -                ID: precision:   2.56%; recall:   8.33%; FB1:   3.92  39
+
+2018-03-26 23:07:44,864 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  38
+
+2018-03-26 23:07:44,864 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:44,864 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:44,865 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:45,118 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 47 phrases; correct: 4.
+
+2018-03-26 23:07:45,118 - log/train.log - INFO - accuracy:  95.63%; precision:   8.51%; recall:  26.67%; FB1:  12.90
+
+2018-03-26 23:07:45,118 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:45,118 - log/train.log - INFO -                ID: precision:  11.11%; recall:  30.00%; FB1:  16.22  27
+
+2018-03-26 23:07:45,118 - log/train.log - INFO -             PHONE: precision:   5.56%; recall:  33.33%; FB1:   9.52  18
+
+2018-03-26 23:07:45,118 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:45,118 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:45,171 - log/train.log - INFO - new best test f1 score:12.900
+2018-03-26 23:07:46,950 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:47,289 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 69 phrases; correct: 4.
+
+2018-03-26 23:07:47,289 - log/train.log - INFO - accuracy:  95.24%; precision:   5.80%; recall:  16.67%; FB1:   8.60
+
+2018-03-26 23:07:47,289 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:47,289 - log/train.log - INFO -                ID: precision:   6.06%; recall:  16.67%; FB1:   8.89  33
+
+2018-03-26 23:07:47,289 - log/train.log - INFO -             PHONE: precision:   5.71%; recall:  20.00%; FB1:   8.89  35
+
+2018-03-26 23:07:47,289 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:47,289 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:47,335 - log/train.log - INFO - new best dev f1 score:8.600
+2018-03-26 23:07:47,508 - log/train.log - INFO - model saved
+2018-03-26 23:07:47,522 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:47,814 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 39 phrases; correct: 3.
+
+2018-03-26 23:07:47,814 - log/train.log - INFO - accuracy:  95.93%; precision:   7.69%; recall:  20.00%; FB1:  11.11
+
+2018-03-26 23:07:47,814 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:07:47,814 - log/train.log - INFO -                ID: precision:  10.00%; recall:  20.00%; FB1:  13.33  20
+
+2018-03-26 23:07:47,814 - log/train.log - INFO -             PHONE: precision:   6.25%; recall:  33.33%; FB1:  10.53  16
+
+2018-03-26 23:07:47,814 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:47,814 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:49,644 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:49,988 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 82 phrases; correct: 2.
+
+2018-03-26 23:07:49,988 - log/train.log - INFO - accuracy:  95.44%; precision:   2.44%; recall:   8.33%; FB1:   3.77
+
+2018-03-26 23:07:49,988 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:49,989 - log/train.log - INFO -                ID: precision:   2.63%; recall:   8.33%; FB1:   4.00  38
+
+2018-03-26 23:07:49,989 - log/train.log - INFO -             PHONE: precision:   2.38%; recall:  10.00%; FB1:   3.85  42
+
+2018-03-26 23:07:49,989 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:49,989 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:49,990 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:50,240 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 38 phrases; correct: 4.
+
+2018-03-26 23:07:50,240 - log/train.log - INFO - accuracy:  96.30%; precision:  10.53%; recall:  26.67%; FB1:  15.09
+
+2018-03-26 23:07:50,240 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:50,240 - log/train.log - INFO -                ID: precision:  19.05%; recall:  40.00%; FB1:  25.81  21
+
+2018-03-26 23:07:50,240 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  14
+
+2018-03-26 23:07:50,241 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:50,241 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:50,286 - log/train.log - INFO - new best test f1 score:15.090
+2018-03-26 23:07:52,113 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:52,437 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 72 phrases; correct: 1.
+
+2018-03-26 23:07:52,437 - log/train.log - INFO - accuracy:  95.69%; precision:   1.39%; recall:   4.17%; FB1:   2.08
+
+2018-03-26 23:07:52,437 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:07:52,437 - log/train.log - INFO -                ID: precision:   2.63%; recall:   8.33%; FB1:   4.00  38
+
+2018-03-26 23:07:52,437 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  31
+
+2018-03-26 23:07:52,438 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:52,438 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:52,439 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:52,701 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 40 phrases; correct: 3.
+
+2018-03-26 23:07:52,701 - log/train.log - INFO - accuracy:  95.41%; precision:   7.50%; recall:  20.00%; FB1:  10.91
+
+2018-03-26 23:07:52,701 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:52,701 - log/train.log - INFO -                ID: precision:   5.56%; recall:  10.00%; FB1:   7.14  18
+
+2018-03-26 23:07:52,701 - log/train.log - INFO -             PHONE: precision:  10.00%; recall:  66.67%; FB1:  17.39  20
+
+2018-03-26 23:07:52,701 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:52,701 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:54,461 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:54,857 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 62 phrases; correct: 4.
+
+2018-03-26 23:07:54,858 - log/train.log - INFO - accuracy:  95.74%; precision:   6.45%; recall:  16.67%; FB1:   9.30
+
+2018-03-26 23:07:54,858 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:07:54,858 - log/train.log - INFO -                ID: precision:  10.00%; recall:  25.00%; FB1:  14.29  30
+
+2018-03-26 23:07:54,858 - log/train.log - INFO -             PHONE: precision:   3.57%; recall:  10.00%; FB1:   5.26  28
+
+2018-03-26 23:07:54,858 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:54,858 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:54,913 - log/train.log - INFO - new best dev f1 score:9.300
+2018-03-26 23:07:55,095 - log/train.log - INFO - model saved
+2018-03-26 23:07:55,095 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:55,378 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 44 phrases; correct: 2.
+
+2018-03-26 23:07:55,378 - log/train.log - INFO - accuracy:  95.48%; precision:   4.55%; recall:  13.33%; FB1:   6.78
+
+2018-03-26 23:07:55,378 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  5
+
+2018-03-26 23:07:55,378 - log/train.log - INFO -                ID: precision:   4.55%; recall:  10.00%; FB1:   6.25  22
+
+2018-03-26 23:07:55,378 - log/train.log - INFO -             PHONE: precision:   5.88%; recall:  33.33%; FB1:  10.00  17
+
+2018-03-26 23:07:55,378 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:55,378 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:57,211 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:07:57,611 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 70 phrases; correct: 3.
+
+2018-03-26 23:07:57,611 - log/train.log - INFO - accuracy:  96.15%; precision:   4.29%; recall:  12.50%; FB1:   6.38
+
+2018-03-26 23:07:57,611 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  8
+
+2018-03-26 23:07:57,611 - log/train.log - INFO -                ID: precision:   8.33%; recall:  25.00%; FB1:  12.50  36
+
+2018-03-26 23:07:57,611 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  25
+
+2018-03-26 23:07:57,611 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:57,612 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:07:57,613 - log/train.log - INFO - evaluate:test
+2018-03-26 23:07:57,893 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 32 phrases; correct: 5.
+
+2018-03-26 23:07:57,893 - log/train.log - INFO - accuracy:  96.08%; precision:  15.62%; recall:  33.33%; FB1:  21.28
+
+2018-03-26 23:07:57,893 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:07:57,893 - log/train.log - INFO -                ID: precision:  26.67%; recall:  40.00%; FB1:  32.00  15
+
+2018-03-26 23:07:57,893 - log/train.log - INFO -             PHONE: precision:   8.33%; recall:  33.33%; FB1:  13.33  12
+
+2018-03-26 23:07:57,893 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:07:57,893 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:07:57,940 - log/train.log - INFO - new best test f1 score:21.280
+2018-03-26 23:07:59,809 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:00,152 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 69 phrases; correct: 4.
+
+2018-03-26 23:08:00,152 - log/train.log - INFO - accuracy:  96.00%; precision:   5.80%; recall:  16.67%; FB1:   8.60
+
+2018-03-26 23:08:00,152 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  7
+
+2018-03-26 23:08:00,152 - log/train.log - INFO -                ID: precision:   8.11%; recall:  25.00%; FB1:  12.24  37
+
+2018-03-26 23:08:00,152 - log/train.log - INFO -             PHONE: precision:   4.00%; recall:  10.00%; FB1:   5.71  25
+
+2018-03-26 23:08:00,152 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:00,152 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:00,153 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:00,420 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 33 phrases; correct: 3.
+
+2018-03-26 23:08:00,420 - log/train.log - INFO - accuracy:  96.30%; precision:   9.09%; recall:  20.00%; FB1:  12.50
+
+2018-03-26 23:08:00,420 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:00,420 - log/train.log - INFO -                ID: precision:  17.65%; recall:  30.00%; FB1:  22.22  17
+
+2018-03-26 23:08:00,420 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  14
+
+2018-03-26 23:08:00,420 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:00,420 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:02,204 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:02,550 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 67 phrases; correct: 3.
+
+2018-03-26 23:08:02,550 - log/train.log - INFO - accuracy:  95.90%; precision:   4.48%; recall:  12.50%; FB1:   6.59
+
+2018-03-26 23:08:02,550 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:08:02,550 - log/train.log - INFO -                ID: precision:   5.88%; recall:  16.67%; FB1:   8.70  34
+
+2018-03-26 23:08:02,550 - log/train.log - INFO -             PHONE: precision:   3.45%; recall:  10.00%; FB1:   5.13  29
+
+2018-03-26 23:08:02,550 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:02,550 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:02,551 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:02,823 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 32 phrases; correct: 5.
+
+2018-03-26 23:08:02,823 - log/train.log - INFO - accuracy:  96.30%; precision:  15.62%; recall:  33.33%; FB1:  21.28
+
+2018-03-26 23:08:02,823 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:08:02,823 - log/train.log - INFO -                ID: precision:  25.00%; recall:  40.00%; FB1:  30.77  16
+
+2018-03-26 23:08:02,823 - log/train.log - INFO -             PHONE: precision:   9.09%; recall:  33.33%; FB1:  14.29  11
+
+2018-03-26 23:08:02,823 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:02,823 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:04,547 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:04,931 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 64 phrases; correct: 3.
+
+2018-03-26 23:08:04,931 - log/train.log - INFO - accuracy:  96.30%; precision:   4.69%; recall:  12.50%; FB1:   6.82
+
+2018-03-26 23:08:04,931 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  6
+
+2018-03-26 23:08:04,931 - log/train.log - INFO -                ID: precision:   9.38%; recall:  25.00%; FB1:  13.64  32
+
+2018-03-26 23:08:04,931 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  26
+
+2018-03-26 23:08:04,931 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:04,931 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:04,932 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:05,231 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 36 phrases; correct: 4.
+
+2018-03-26 23:08:05,231 - log/train.log - INFO - accuracy:  96.08%; precision:  11.11%; recall:  26.67%; FB1:  15.69
+
+2018-03-26 23:08:05,231 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:08:05,231 - log/train.log - INFO -                ID: precision:  22.22%; recall:  40.00%; FB1:  28.57  18
+
+2018-03-26 23:08:05,231 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  15
+
+2018-03-26 23:08:05,231 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:05,231 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:06,992 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:07,330 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 62 phrases; correct: 3.
+
+2018-03-26 23:08:07,330 - log/train.log - INFO - accuracy:  96.50%; precision:   4.84%; recall:  12.50%; FB1:   6.98
+
+2018-03-26 23:08:07,330 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:07,330 - log/train.log - INFO -                ID: precision:  10.71%; recall:  25.00%; FB1:  15.00  28
+
+2018-03-26 23:08:07,330 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  29
+
+2018-03-26 23:08:07,330 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:07,330 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:08:07,332 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:07,592 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 31 phrases; correct: 6.
+
+2018-03-26 23:08:07,592 - log/train.log - INFO - accuracy:  96.37%; precision:  19.35%; recall:  40.00%; FB1:  26.09
+
+2018-03-26 23:08:07,592 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:08:07,592 - log/train.log - INFO -                ID: precision:  28.57%; recall:  40.00%; FB1:  33.33  14
+
+2018-03-26 23:08:07,592 - log/train.log - INFO -             PHONE: precision:  16.67%; recall:  66.67%; FB1:  26.67  12
+
+2018-03-26 23:08:07,592 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:07,592 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:07,642 - log/train.log - INFO - new best test f1 score:26.090
+2018-03-26 23:08:09,462 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:09,822 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 58 phrases; correct: 8.
+
+2018-03-26 23:08:09,822 - log/train.log - INFO - accuracy:  95.85%; precision:  13.79%; recall:  33.33%; FB1:  19.51
+
+2018-03-26 23:08:09,823 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:09,823 - log/train.log - INFO -                ID: precision:  24.24%; recall:  66.67%; FB1:  35.56  33
+
+2018-03-26 23:08:09,823 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  23
+
+2018-03-26 23:08:09,823 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:09,823 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:09,876 - log/train.log - INFO - new best dev f1 score:19.510
+2018-03-26 23:08:10,075 - log/train.log - INFO - model saved
+2018-03-26 23:08:10,075 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:10,368 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 25 phrases; correct: 8.
+
+2018-03-26 23:08:10,368 - log/train.log - INFO - accuracy:  96.89%; precision:  32.00%; recall:  53.33%; FB1:  40.00
+
+2018-03-26 23:08:10,368 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:10,368 - log/train.log - INFO -                ID: precision:  50.00%; recall:  70.00%; FB1:  58.33  14
+
+2018-03-26 23:08:10,368 - log/train.log - INFO -             PHONE: precision:  11.11%; recall:  33.33%; FB1:  16.67  9
+
+2018-03-26 23:08:10,368 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:10,368 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:10,419 - log/train.log - INFO - new best test f1 score:40.000
+2018-03-26 23:08:12,231 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:12,592 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 41 phrases; correct: 8.
+
+2018-03-26 23:08:12,593 - log/train.log - INFO - accuracy:  97.37%; precision:  19.51%; recall:  33.33%; FB1:  24.62
+
+2018-03-26 23:08:12,593 - log/train.log - INFO -                ID: precision:  33.33%; recall:  58.33%; FB1:  42.42  21
+
+2018-03-26 23:08:12,593 - log/train.log - INFO -             PHONE: precision:   5.56%; recall:  10.00%; FB1:   7.14  18
+
+2018-03-26 23:08:12,593 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:12,593 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:12,649 - log/train.log - INFO - new best dev f1 score:24.620
+2018-03-26 23:08:12,847 - log/train.log - INFO - model saved
+2018-03-26 23:08:12,847 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:13,139 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 27 phrases; correct: 7.
+
+2018-03-26 23:08:13,139 - log/train.log - INFO - accuracy:  96.97%; precision:  25.93%; recall:  46.67%; FB1:  33.33
+
+2018-03-26 23:08:13,139 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:13,139 - log/train.log - INFO -                ID: precision:  35.71%; recall:  50.00%; FB1:  41.67  14
+
+2018-03-26 23:08:13,139 - log/train.log - INFO -             PHONE: precision:  18.18%; recall:  66.67%; FB1:  28.57  11
+
+2018-03-26 23:08:13,139 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:13,139 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:14,964 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:15,317 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 62 phrases; correct: 7.
+
+2018-03-26 23:08:15,318 - log/train.log - INFO - accuracy:  96.30%; precision:  11.29%; recall:  29.17%; FB1:  16.28
+
+2018-03-26 23:08:15,318 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  5
+
+2018-03-26 23:08:15,318 - log/train.log - INFO -                ID: precision:  15.62%; recall:  41.67%; FB1:  22.73  32
+
+2018-03-26 23:08:15,318 - log/train.log - INFO -             PHONE: precision:   9.09%; recall:  20.00%; FB1:  12.50  22
+
+2018-03-26 23:08:15,318 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:15,318 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:15,318 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:15,541 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 24 phrases; correct: 8.
+
+2018-03-26 23:08:15,542 - log/train.log - INFO - accuracy:  97.04%; precision:  33.33%; recall:  53.33%; FB1:  41.03
+
+2018-03-26 23:08:15,542 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:15,542 - log/train.log - INFO -                ID: precision:  58.33%; recall:  70.00%; FB1:  63.64  12
+
+2018-03-26 23:08:15,542 - log/train.log - INFO -             PHONE: precision:  11.11%; recall:  33.33%; FB1:  16.67  9
+
+2018-03-26 23:08:15,543 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:15,543 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:15,608 - log/train.log - INFO - new best test f1 score:41.030
+2018-03-26 23:08:17,359 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:17,726 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 54 phrases; correct: 6.
+
+2018-03-26 23:08:17,726 - log/train.log - INFO - accuracy:  96.61%; precision:  11.11%; recall:  25.00%; FB1:  15.38
+
+2018-03-26 23:08:17,726 - log/train.log - INFO -                ID: precision:  20.00%; recall:  50.00%; FB1:  28.57  30
+
+2018-03-26 23:08:17,726 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  23
+
+2018-03-26 23:08:17,726 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:17,726 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:17,727 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:18,038 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 29 phrases; correct: 8.
+
+2018-03-26 23:08:18,038 - log/train.log - INFO - accuracy:  96.67%; precision:  27.59%; recall:  53.33%; FB1:  36.36
+
+2018-03-26 23:08:18,038 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:18,038 - log/train.log - INFO -                ID: precision:  40.00%; recall:  60.00%; FB1:  48.00  15
+
+2018-03-26 23:08:18,038 - log/train.log - INFO -             PHONE: precision:  20.00%; recall:  66.67%; FB1:  30.77  10
+
+2018-03-26 23:08:18,039 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:18,039 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:19,819 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:20,160 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 49 phrases; correct: 7.
+
+2018-03-26 23:08:20,161 - log/train.log - INFO - accuracy:  97.26%; precision:  14.29%; recall:  29.17%; FB1:  19.18
+
+2018-03-26 23:08:20,161 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:08:20,161 - log/train.log - INFO -                ID: precision:  23.08%; recall:  50.00%; FB1:  31.58  26
+
+2018-03-26 23:08:20,161 - log/train.log - INFO -             PHONE: precision:   5.56%; recall:  10.00%; FB1:   7.14  18
+
+2018-03-26 23:08:20,161 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:20,161 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:20,161 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:20,421 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 28 phrases; correct: 7.
+
+2018-03-26 23:08:20,421 - log/train.log - INFO - accuracy:  96.89%; precision:  25.00%; recall:  46.67%; FB1:  32.56
+
+2018-03-26 23:08:20,421 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:20,421 - log/train.log - INFO -                ID: precision:  33.33%; recall:  50.00%; FB1:  40.00  15
+
+2018-03-26 23:08:20,421 - log/train.log - INFO -             PHONE: precision:  18.18%; recall:  66.67%; FB1:  28.57  11
+
+2018-03-26 23:08:20,421 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:20,421 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:22,208 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:22,540 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 46 phrases; correct: 11.
+
+2018-03-26 23:08:22,540 - log/train.log - INFO - accuracy:  97.32%; precision:  23.91%; recall:  45.83%; FB1:  31.43
+
+2018-03-26 23:08:22,540 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:22,540 - log/train.log - INFO -                ID: precision:  36.00%; recall:  75.00%; FB1:  48.65  25
+
+2018-03-26 23:08:22,541 - log/train.log - INFO -             PHONE: precision:  11.76%; recall:  20.00%; FB1:  14.81  17
+
+2018-03-26 23:08:22,541 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:22,541 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:22,602 - log/train.log - INFO - new best dev f1 score:31.430
+2018-03-26 23:08:22,761 - log/train.log - INFO - model saved
+2018-03-26 23:08:22,776 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:23,052 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 21 phrases; correct: 10.
+
+2018-03-26 23:08:23,052 - log/train.log - INFO - accuracy:  97.19%; precision:  47.62%; recall:  66.67%; FB1:  55.56
+
+2018-03-26 23:08:23,052 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:23,052 - log/train.log - INFO -                ID: precision:  72.73%; recall:  80.00%; FB1:  76.19  11
+
+2018-03-26 23:08:23,052 - log/train.log - INFO -             PHONE: precision:  28.57%; recall:  66.67%; FB1:  40.00  7
+
+2018-03-26 23:08:23,053 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:23,053 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:23,104 - log/train.log - INFO - new best test f1 score:55.560
+2018-03-26 23:08:24,866 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:25,265 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 55 phrases; correct: 9.
+
+2018-03-26 23:08:25,265 - log/train.log - INFO - accuracy:  96.81%; precision:  16.36%; recall:  37.50%; FB1:  22.78
+
+2018-03-26 23:08:25,265 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:25,265 - log/train.log - INFO -                ID: precision:  24.14%; recall:  58.33%; FB1:  34.15  29
+
+2018-03-26 23:08:25,265 - log/train.log - INFO -             PHONE: precision:   9.09%; recall:  20.00%; FB1:  12.50  22
+
+2018-03-26 23:08:25,265 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:25,265 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:25,267 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:25,546 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 28 phrases; correct: 9.
+
+2018-03-26 23:08:25,546 - log/train.log - INFO - accuracy:  97.19%; precision:  32.14%; recall:  60.00%; FB1:  41.86
+
+2018-03-26 23:08:25,546 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:25,546 - log/train.log - INFO -                ID: precision:  50.00%; recall:  80.00%; FB1:  61.54  16
+
+2018-03-26 23:08:25,546 - log/train.log - INFO -             PHONE: precision:  12.50%; recall:  33.33%; FB1:  18.18  8
+
+2018-03-26 23:08:25,547 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:25,547 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:27,256 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:27,637 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 47 phrases; correct: 11.
+
+2018-03-26 23:08:27,637 - log/train.log - INFO - accuracy:  97.16%; precision:  23.40%; recall:  45.83%; FB1:  30.99
+
+2018-03-26 23:08:27,637 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:27,637 - log/train.log - INFO -                ID: precision:  37.93%; recall:  91.67%; FB1:  53.66  29
+
+2018-03-26 23:08:27,637 - log/train.log - INFO -             PHONE: precision:   0.00%; recall:   0.00%; FB1:   0.00  15
+
+2018-03-26 23:08:27,637 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:27,637 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:27,639 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:27,922 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 22 phrases; correct: 11.
+
+2018-03-26 23:08:27,923 - log/train.log - INFO - accuracy:  97.48%; precision:  50.00%; recall:  73.33%; FB1:  59.46
+
+2018-03-26 23:08:27,923 - log/train.log - INFO -                ID: precision:  81.82%; recall:  90.00%; FB1:  85.71  11
+
+2018-03-26 23:08:27,923 - log/train.log - INFO -             PHONE: precision:  22.22%; recall:  66.67%; FB1:  33.33  9
+
+2018-03-26 23:08:27,923 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:27,923 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:27,992 - log/train.log - INFO - new best test f1 score:59.460
+2018-03-26 23:08:29,776 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:30,152 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 38 phrases; correct: 12.
+
+2018-03-26 23:08:30,152 - log/train.log - INFO - accuracy:  97.77%; precision:  31.58%; recall:  50.00%; FB1:  38.71
+
+2018-03-26 23:08:30,152 - log/train.log - INFO -                ID: precision:  47.37%; recall:  75.00%; FB1:  58.06  19
+
+2018-03-26 23:08:30,153 - log/train.log - INFO -             PHONE: precision:  17.65%; recall:  30.00%; FB1:  22.22  17
+
+2018-03-26 23:08:30,153 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:30,153 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:30,214 - log/train.log - INFO - new best dev f1 score:38.710
+2018-03-26 23:08:30,382 - log/train.log - INFO - model saved
+2018-03-26 23:08:30,394 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:30,660 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 26 phrases; correct: 9.
+
+2018-03-26 23:08:30,661 - log/train.log - INFO - accuracy:  97.56%; precision:  34.62%; recall:  60.00%; FB1:  43.90
+
+2018-03-26 23:08:30,661 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:30,661 - log/train.log - INFO -                ID: precision:  53.33%; recall:  80.00%; FB1:  64.00  15
+
+2018-03-26 23:08:30,661 - log/train.log - INFO -             PHONE: precision:  14.29%; recall:  33.33%; FB1:  20.00  7
+
+2018-03-26 23:08:30,661 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:30,661 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:32,426 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:32,756 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 44 phrases; correct: 12.
+
+2018-03-26 23:08:32,756 - log/train.log - INFO - accuracy:  97.37%; precision:  27.27%; recall:  50.00%; FB1:  35.29
+
+2018-03-26 23:08:32,756 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:32,757 - log/train.log - INFO -                ID: precision:  45.83%; recall:  91.67%; FB1:  61.11  24
+
+2018-03-26 23:08:32,757 - log/train.log - INFO -             PHONE: precision:   6.67%; recall:  10.00%; FB1:   8.00  15
+
+2018-03-26 23:08:32,757 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:32,757 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:08:32,757 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:33,009 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 25 phrases; correct: 5.
+
+2018-03-26 23:08:33,009 - log/train.log - INFO - accuracy:  97.04%; precision:  20.00%; recall:  33.33%; FB1:  25.00
+
+2018-03-26 23:08:33,009 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:33,009 - log/train.log - INFO -                ID: precision:  33.33%; recall:  40.00%; FB1:  36.36  12
+
+2018-03-26 23:08:33,009 - log/train.log - INFO -             PHONE: precision:  10.00%; recall:  33.33%; FB1:  15.38  10
+
+2018-03-26 23:08:33,009 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:33,010 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:34,850 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:35,192 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 48 phrases; correct: 13.
+
+2018-03-26 23:08:35,192 - log/train.log - INFO - accuracy:  97.47%; precision:  27.08%; recall:  54.17%; FB1:  36.11
+
+2018-03-26 23:08:35,192 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:08:35,192 - log/train.log - INFO -                ID: precision:  40.00%; recall:  83.33%; FB1:  54.05  25
+
+2018-03-26 23:08:35,192 - log/train.log - INFO -             PHONE: precision:  18.75%; recall:  30.00%; FB1:  23.08  16
+
+2018-03-26 23:08:35,192 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:35,192 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:08:35,193 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:35,443 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 22 phrases; correct: 8.
+
+2018-03-26 23:08:35,443 - log/train.log - INFO - accuracy:  96.89%; precision:  36.36%; recall:  53.33%; FB1:  43.24
+
+2018-03-26 23:08:35,443 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:35,443 - log/train.log - INFO -                ID: precision:  54.55%; recall:  60.00%; FB1:  57.14  11
+
+2018-03-26 23:08:35,443 - log/train.log - INFO -             PHONE: precision:  25.00%; recall:  66.67%; FB1:  36.36  8
+
+2018-03-26 23:08:35,443 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:35,443 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:37,237 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:37,603 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 37 phrases; correct: 14.
+
+2018-03-26 23:08:37,603 - log/train.log - INFO - accuracy:  97.82%; precision:  37.84%; recall:  58.33%; FB1:  45.90
+
+2018-03-26 23:08:37,603 - log/train.log - INFO -                ID: precision:  55.00%; recall:  91.67%; FB1:  68.75  20
+
+2018-03-26 23:08:37,603 - log/train.log - INFO -             PHONE: precision:  20.00%; recall:  30.00%; FB1:  24.00  15
+
+2018-03-26 23:08:37,603 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:37,603 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:37,658 - log/train.log - INFO - new best dev f1 score:45.900
+2018-03-26 23:08:37,874 - log/train.log - INFO - model saved
+2018-03-26 23:08:37,875 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:38,166 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 23 phrases; correct: 9.
+
+2018-03-26 23:08:38,167 - log/train.log - INFO - accuracy:  97.19%; precision:  39.13%; recall:  60.00%; FB1:  47.37
+
+2018-03-26 23:08:38,167 - log/train.log - INFO -                ID: precision:  63.64%; recall:  70.00%; FB1:  66.67  11
+
+2018-03-26 23:08:38,167 - log/train.log - INFO -             PHONE: precision:  22.22%; recall:  66.67%; FB1:  33.33  9
+
+2018-03-26 23:08:38,167 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:38,167 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:08:39,977 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:40,325 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 39 phrases; correct: 12.
+
+2018-03-26 23:08:40,325 - log/train.log - INFO - accuracy:  97.67%; precision:  30.77%; recall:  50.00%; FB1:  38.10
+
+2018-03-26 23:08:40,325 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:40,326 - log/train.log - INFO -                ID: precision:  38.89%; recall:  58.33%; FB1:  46.67  18
+
+2018-03-26 23:08:40,326 - log/train.log - INFO -             PHONE: precision:  27.78%; recall:  50.00%; FB1:  35.71  18
+
+2018-03-26 23:08:40,326 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:40,326 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:40,327 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:40,596 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 23 phrases; correct: 9.
+
+2018-03-26 23:08:40,596 - log/train.log - INFO - accuracy:  97.56%; precision:  39.13%; recall:  60.00%; FB1:  47.37
+
+2018-03-26 23:08:40,597 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:40,597 - log/train.log - INFO -                ID: precision:  63.64%; recall:  70.00%; FB1:  66.67  11
+
+2018-03-26 23:08:40,597 - log/train.log - INFO -             PHONE: precision:  25.00%; recall:  66.67%; FB1:  36.36  8
+
+2018-03-26 23:08:40,597 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:40,597 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:08:42,413 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:42,771 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 37 phrases; correct: 15.
+
+2018-03-26 23:08:42,771 - log/train.log - INFO - accuracy:  97.97%; precision:  40.54%; recall:  62.50%; FB1:  49.18
+
+2018-03-26 23:08:42,771 - log/train.log - INFO -                ID: precision:  52.63%; recall:  83.33%; FB1:  64.52  19
+
+2018-03-26 23:08:42,771 - log/train.log - INFO -             PHONE: precision:  31.25%; recall:  50.00%; FB1:  38.46  16
+
+2018-03-26 23:08:42,771 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:42,771 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:42,835 - log/train.log - INFO - new best dev f1 score:49.180
+2018-03-26 23:08:42,983 - log/train.log - INFO - model saved
+2018-03-26 23:08:42,994 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:43,264 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 21 phrases; correct: 10.
+
+2018-03-26 23:08:43,264 - log/train.log - INFO - accuracy:  97.41%; precision:  47.62%; recall:  66.67%; FB1:  55.56
+
+2018-03-26 23:08:43,264 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:43,264 - log/train.log - INFO -                ID: precision:  80.00%; recall:  80.00%; FB1:  80.00  10
+
+2018-03-26 23:08:43,264 - log/train.log - INFO -             PHONE: precision:  25.00%; recall:  66.67%; FB1:  36.36  8
+
+2018-03-26 23:08:43,264 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:43,264 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:45,077 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:45,445 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 37 phrases; correct: 17.
+
+2018-03-26 23:08:45,445 - log/train.log - INFO - accuracy:  97.87%; precision:  45.95%; recall:  70.83%; FB1:  55.74
+
+2018-03-26 23:08:45,445 - log/train.log - INFO -                ID: precision:  60.00%; recall:  75.00%; FB1:  66.67  15
+
+2018-03-26 23:08:45,446 - log/train.log - INFO -             PHONE: precision:  44.44%; recall:  80.00%; FB1:  57.14  18
+
+2018-03-26 23:08:45,446 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:45,446 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  4
+
+2018-03-26 23:08:45,498 - log/train.log - INFO - new best dev f1 score:55.740
+2018-03-26 23:08:45,664 - log/train.log - INFO - model saved
+2018-03-26 23:08:45,679 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:45,978 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 27 phrases; correct: 9.
+
+2018-03-26 23:08:45,978 - log/train.log - INFO - accuracy:  97.11%; precision:  33.33%; recall:  60.00%; FB1:  42.86
+
+2018-03-26 23:08:45,978 - log/train.log - INFO -                ID: precision:  58.33%; recall:  70.00%; FB1:  63.64  12
+
+2018-03-26 23:08:45,978 - log/train.log - INFO -             PHONE: precision:  16.67%; recall:  66.67%; FB1:  26.67  12
+
+2018-03-26 23:08:45,978 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:45,978 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:08:47,835 - log/train.log - INFO - iteration:101 step:0/1, NER loss:82.670677
+2018-03-26 23:08:47,835 - log/train.log - INFO - evaluate:dev
+2018-03-26 23:08:48,163 - log/train.log - INFO - processed 1974 tokens with 24 phrases; found: 37 phrases; correct: 13.
+
+2018-03-26 23:08:48,163 - log/train.log - INFO - accuracy:  97.92%; precision:  35.14%; recall:  54.17%; FB1:  42.62
+
+2018-03-26 23:08:48,163 - log/train.log - INFO -              CSID: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:48,163 - log/train.log - INFO -                ID: precision:  57.14%; recall:  66.67%; FB1:  61.54  14
+
+2018-03-26 23:08:48,163 - log/train.log - INFO -             PHONE: precision:  27.78%; recall:  50.00%; FB1:  35.71  18
+
+2018-03-26 23:08:48,163 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+
+2018-03-26 23:08:48,163 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+
+2018-03-26 23:08:48,164 - log/train.log - INFO - evaluate:test
+2018-03-26 23:08:48,448 - log/train.log - INFO - processed 1351 tokens with 15 phrases; found: 22 phrases; correct: 12.
+
+2018-03-26 23:08:48,448 - log/train.log - INFO - accuracy:  97.71%; precision:  54.55%; recall:  80.00%; FB1:  64.86
+
+2018-03-26 23:08:48,448 - log/train.log - INFO -                ID: precision:  81.82%; recall:  90.00%; FB1:  85.71  11
+
+2018-03-26 23:08:48,448 - log/train.log - INFO -             PHONE: precision:  37.50%; recall: 100.00%; FB1:  54.55  8
+
+2018-03-26 23:08:48,448 - log/train.log - INFO -                QQ: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-03-26 23:08:48,448 - log/train.log - INFO -                WX: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2018-03-26 23:08:48,523 - log/train.log - INFO - new best test f1 score:64.860
