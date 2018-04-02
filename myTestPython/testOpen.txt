@@ -1,0 +1,2 @@
+这是测试Python open()方法的txt
+测试结果是what

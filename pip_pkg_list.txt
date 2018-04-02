@@ -1,0 +1,4 @@
+jieba
+tensorflow
+sklearn
+scipy

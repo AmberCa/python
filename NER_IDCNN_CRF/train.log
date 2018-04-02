@@ -1,0 +1,15 @@
+2018-03-09 17:15:58,705 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2018-03-09 17:23:53,409 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2018-03-09 17:24:13,594 - train.log - INFO - Reading model parameters from ckpt/ner.ckpt
+2018-03-09 17:28:13,492 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2018-03-09 17:33:03,911 - train.log - INFO - Reading model parameters from ckpt/ner.ckpt
+2018-03-09 17:49:57,852 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2018-03-09 21:14:08,259 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2018-03-09 21:21:57,724 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2018-03-12 11:58:26,432 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2018-03-12 12:00:51,139 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2018-03-12 12:09:48,701 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2018-03-16 19:25:20,406 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2018-03-19 08:53:09,648 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2018-03-27 10:46:07,987 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
+2018-03-28 15:00:38,035 - train.log - INFO - Reading model parameters from ckpt_IDCNN/ner.ckpt
